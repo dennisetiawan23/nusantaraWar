@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="1">Map</layout>
+        <layout active="1" order="3">Level 1</layout>
+        <layout order="5">Level 2</layout>
+        <layout order="7">Level 3</layout>
+        <layout order="8">Home</layout>
+        <layout order="10">Level 4</layout>
+        <layout order="11">Level 5</layout>
+        <event-sheet order="0">Event Map</event-sheet>
+        <event-sheet order="2">Event Level 1</event-sheet>
+        <event-sheet order="4">Event Level 2</event-sheet>
+        <event-sheet order="6">Event Level 3</event-sheet>
+        <event-sheet order="9">Event Level 4</event-sheet>
+        <event-sheet order="12">Event Level 5</event-sheet>
+        <event-sheet order="13">Event Home</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="0" name="pickStage" />
+        <family expanded="0" name="optPop" />
+        <family expanded="0" name="enemy1L1" />
+        <family expanded="0" name="enemy2L1" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/BG/" />
+        <folder expanded="1" path="animation-folder/logo/" />
+        <folder expanded="1" path="animation-folder/options/" />
+        <folder expanded="1" path="animation-folder/play/" />
+        <folder expanded="1" path="animation-folder/optionsPopup/" />
+        <folder expanded="1" path="animation-folder/backOptions/" />
+        <folder expanded="1" path="animation-folder/tint/" />
+        <folder expanded="1" path="animation-folder/bgmBox/" />
+        <folder expanded="1" path="animation-folder/sfxBox/" />
+        <folder expanded="1" path="animation-folder/bgmCek/" />
+        <folder expanded="1" path="animation-folder/sfxCek/" />
+        <folder expanded="1" path="animation-folder/mapL1/" />
+        <folder expanded="1" path="animation-folder/buttonSulawesi/" />
+        <folder expanded="1" path="animation-folder/backMap/" />
+        <folder expanded="1" path="animation-folder/mapL2/" />
+        <folder expanded="1" path="animation-folder/buttonBorneo/" />
+        <folder expanded="1" path="animation-folder/mapL3/" />
+        <folder expanded="1" path="animation-folder/mapL4/" />
+        <folder expanded="1" path="animation-folder/mapL5/" />
+        <folder expanded="1" path="animation-folder/buttonSumatera/" />
+        <folder expanded="1" path="animation-folder/buttonIndonesia/" />
+        <folder expanded="1" path="animation-folder/benderaSulawesi/" />
+        <folder expanded="1" path="animation-folder/benderaBorneo/" />
+        <folder expanded="1" path="animation-folder/benderaSumatera/" />
+        <folder expanded="1" path="animation-folder/benderaIndonesia/" />
+        <folder expanded="1" path="animation-folder/benderaRengasdengklok/" />
+        <folder expanded="1" path="animation-folder/story11/" />
+        <folder expanded="1" path="animation-folder/story12/" />
+        <folder expanded="1" path="animation-folder/next1/" />
+        <folder expanded="1" path="animation-folder/play1/" />
+        <folder expanded="1" path="animation-folder/heroHassanudin/" />
+        <folder expanded="1" path="animation-folder/heroHassanudinMove/" />
+        <folder expanded="1" path="animation-folder/center1/" />
+        <folder expanded="1" path="animation-folder/wallL1/" />
+        <folder expanded="1" path="animation-folder/wallR1/" />
+        <folder expanded="1" path="animation-folder/L1Wave1/" />
+        <folder expanded="1" path="animation-folder/L1enemy1/" />
+        <folder expanded="1" path="animation-folder/L1Stop1/" />
+        <folder expanded="1" path="animation-folder/L1enemy1melee/" />
+        <folder expanded="1" path="animation-folder/L1Destroy1/" />
+        <folder expanded="1" path="animation-folder/L1wave2/" />
+        <folder expanded="1" path="animation-folder/L1enemy2/" />
+        <folder expanded="1" path="animation-folder/L1stop2/" />
+        <folder expanded="1" path="animation-folder/L1enemy2melee/" />
+        <folder expanded="1" path="animation-folder/hp1/" />
+        <folder expanded="1" path="animation-folder/darah1/" />
+        <folder expanded="1" path="animation-folder/L1Destroy2/" />
+        <folder expanded="1" path="animation-folder/controls/" />
+        <folder expanded="1" path="animation-folder/L1enemy31/" />
+        <folder expanded="1" path="animation-folder/L1enemy32/" />
+        <folder expanded="1" path="animation-folder/L1enemy31melee/" />
+        <folder expanded="1" path="animation-folder/L1enemy32melee/" />
+        <folder expanded="1" path="animation-folder/L1stop31/" />
+        <folder expanded="1" path="animation-folder/L1flash/" />
+        <folder expanded="1" path="animation-folder/bullets/" />
+        <folder expanded="1" path="animation-folder/L1enemy1health/" />
+        <folder expanded="1" path="animation-folder/L1enemy2health/" />
+        <folder expanded="1" path="animation-folder/L1enemy31health/" />
+        <folder expanded="1" path="animation-folder/L1enemy32health/" />
+        <folder expanded="1" path="animation-folder/L1Destroy3/" />
+        <folder expanded="1" path="animation-folder/L1boss/" />
+    </folders-expanded>
+</c2uistate>
