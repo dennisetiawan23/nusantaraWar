@@ -11,13 +11,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="1">Map</layout>
-        <layout active="1" order="3">Level 1</layout>
+        <layout order="3">Level 1</layout>
         <layout order="5">Level 2</layout>
         <layout order="7">Level 3</layout>
         <layout order="8">Home</layout>
         <layout order="10">Level 4</layout>
         <layout order="11">Level 5</layout>
-        <event-sheet order="0">Event Map</event-sheet>
+        <event-sheet active="1" order="0">Event Map</event-sheet>
         <event-sheet order="2">Event Level 1</event-sheet>
         <event-sheet order="4">Event Level 2</event-sheet>
         <event-sheet order="6">Event Level 3</event-sheet>
@@ -97,7 +97,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/L1enemy32/" />
         <folder expanded="1" path="animation-folder/L1enemy31melee/" />
         <folder expanded="1" path="animation-folder/L1enemy32melee/" />
-        <folder expanded="1" path="animation-folder/L1stop31/" />
+        <folder expanded="1" path="animation-folder/L1stop3/" />
         <folder expanded="1" path="animation-folder/L1flash/" />
         <folder expanded="1" path="animation-folder/bullets/" />
         <folder expanded="1" path="animation-folder/L1enemy1health/" />
@@ -106,5 +106,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/L1enemy32health/" />
         <folder expanded="1" path="animation-folder/L1Destroy3/" />
         <folder expanded="1" path="animation-folder/L1boss/" />
+        <folder expanded="1" path="animation-folder/L1stopBoss/" />
+        <folder expanded="1" path="animation-folder/L1bossMelee/" />
+        <folder expanded="1" path="animation-folder/L1bossHealth/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
     </folders-expanded>
 </c2uistate>
