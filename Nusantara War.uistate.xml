@@ -71,10 +71,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/benderaSumatera/" />
         <folder expanded="1" path="animation-folder/benderaIndonesia/" />
         <folder expanded="1" path="animation-folder/benderaRengasdengklok/" />
-        <folder expanded="1" path="animation-folder/story11/" />
-        <folder expanded="1" path="animation-folder/story12/" />
-        <folder expanded="1" path="animation-folder/next1/" />
-        <folder expanded="1" path="animation-folder/play1/" />
         <folder expanded="1" path="animation-folder/heroHassanudin/" />
         <folder expanded="1" path="animation-folder/heroHassanudinMove/" />
         <folder expanded="1" path="animation-folder/center1/" />
@@ -109,6 +105,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/L1stopBoss/" />
         <folder expanded="1" path="animation-folder/L1bossMelee/" />
         <folder expanded="1" path="animation-folder/L1bossHealth/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/finish/" />
+        <folder expanded="1" path="animation-folder/podium/" />
+        <folder expanded="1" path="animation-folder/story1/" />
+        <folder expanded="1" path="animation-folder/backArrow/" />
+        <folder expanded="1" path="animation-folder/story1Boss/" />
+        <folder expanded="1" path="animation-folder/heroHassanudinDialog/" />
+        <folder expanded="1" path="animation-folder/L1bossDialog/" />
+        <folder expanded="1" path="animation-folder/storyWin/" />
+        <folder expanded="1" path="animation-folder/storyLose/" />
     </folders-expanded>
 </c2uistate>

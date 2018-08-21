@@ -491,86 +491,15 @@
         </object-type>
         <object-type name="tanah" sid="916024838378807">
             <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="click" sid="704643070353478" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Solid" sid="750053079308025">
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <texture original-source="G:\ppti bca\Cawu 3\Project SE\tanah.png" />
-        </object-type>
-        <object-type name="story11" sid="898079996382163">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Fade" sid="760188462989758">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139446143124383" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\ppti bca\Cawu 3\Project SE\cerita s1 (0).jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="story12" sid="264188916747779">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Fade" sid="129181868737300">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="723535243729114" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\ppti bca\Cawu 3\Project SE\cerita s1 (1).jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="next1" sid="403532766924089">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Fade" sid="266929450296395">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="814368219174240" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\ppti bca\Cawu 3\Project SE\next.png">
-                        <collision-poly>
-                            <point x="0.0285714" y="0.15" />
-                            <point x="0.5" y="0.025" />
-                            <point x="0.966667" y="0.175" />
-                            <point x="0.97619" y="0.5" />
-                            <point x="0.966667" y="0.825" />
-                            <point x="0.5" y="0.975" />
-                            <point x="0.0285714" y="0.85" />
-                            <point x="0.0190476" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="play1" sid="510363608437296">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Fade" sid="574076558498453">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538093950295760" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\ppti bca\Cawu 3\Project SE\play.png">
-                        <collision-poly>
-                            <point x="0.025" y="0.125" />
-                            <point x="0.5" y="0.025" />
-                            <point x="0.975" y="0.125" />
-                            <point x="0.99" y="0.5" />
-                            <point x="0.975" y="0.875" />
-                            <point x="0.5" y="0.975" />
-                            <point x="0.025" y="0.875" />
-                            <point x="0.01" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="LocalStorage" sid="761179990701262">
             <plugin id="LocalStorage" />
@@ -579,32 +508,68 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="721737142405308" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Idle 1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Idle 2.png" />
-                    <frame duration="1" hotspotX="0.511111" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Idle 3.png" />
-                    <frame duration="1" hotspotX="0.511111" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Idle 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Idle 1.png">
+                        <image-point name="dialog" x="0.5" y="-0.769231" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.511111" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Idle 3.png">
+                        <image-point name="dialog" x="0.511111" y="-0.761905" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Idle 2.png">
+                        <image-point name="dialog" x="0.5" y="-0.765625" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.511111" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Idle 4.png">
+                        <image-point name="dialog" x="0.511111" y="-0.765625" />
+                    </frame>
                 </animation>
                 <animation framecount="4" loop="1" name="run" pingpong="0" repeatcount="1" repeatto="0" sid="733904669354518" speed="5">
-                    <frame duration="1" hotspotX="0.509804" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Run1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Run2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Run3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Run1.png">
+                        <image-point name="dialog" x="0.509804" y="-0.943396" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Run2.png">
+                        <image-point name="dialog" x="0.516129" y="-0.938776" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Run3.png">
+                        <image-point name="dialog" x="0.517857" y="-0.943396" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1">
+                        <image-point name="dialog" x="0.516129" y="-0.938776" />
+                    </frame>
                 </animation>
                 <animation framecount="5" loop="1" name="jump" pingpong="0" repeatcount="1" repeatto="0" sid="349998321448942" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 3.png" />
-                    <frame duration="1" hotspotX="0.511111" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 4.png" />
-                    <frame duration="1" hotspotX="0.510204" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 1.png">
+                        <image-point name="dialog" x="0.5" y="-0.714286" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 2.png">
+                        <image-point name="dialog" x="0.5" y="-0.71875" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 3.png">
+                        <image-point name="dialog" x="0.5" y="-0.707692" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.511111" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 4.png">
+                        <image-point name="dialog" x="0.511111" y="-0.719298" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.510204" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Jump 5.png">
+                        <image-point name="dialog" x="0.510204" y="-0.705882" />
+                    </frame>
                 </animation>
                 <animation framecount="3" loop="1" name="attackN" pingpong="0" repeatcount="1" repeatto="0" sid="462067490852879" speed="5">
-                    <frame duration="1" hotspotX="0.152542" hotspotY="1" />
-                    <frame duration="1" hotspotX="0.151163" hotspotY="1" />
-                    <frame duration="1" hotspotX="0.120482" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.152542" hotspotY="1">
+                        <image-point name="dialog" x="0.508475" y="-0.877193" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.151163" hotspotY="1">
+                        <image-point name="dialog" x="0.5" y="-0.883333" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.120482" hotspotY="1">
+                        <image-point name="dialog" x="0.506024" y="-0.883333" />
+                    </frame>
                 </animation>
                 <animation framecount="2" loop="0" name="duck" pingpong="0" repeatcount="1" repeatto="0" sid="273288874373318" speed="5">
-                    <frame duration="1" hotspotX="0.175" hotspotY="1" />
-                    <frame duration="1" hotspotX="0.479167" hotspotY="0.979167" />
+                    <frame duration="1" hotspotX="0.175" hotspotY="1">
+                        <image-point name="dialog" x="0.5" y="0" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.479167" hotspotY="0.979167">
+                        <image-point name="dialog" x="0.5" y="0" />
+                    </frame>
                 </animation>
                 <animation framecount="4" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="998866551854056" speed="3">
                     <frame duration="1" hotspotX="0.311475" hotspotY="1" />
@@ -695,28 +660,32 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="1">
                         <image-point name="Imagepoint 1" x="0.5" y="-0.789474" />
                         <image-point name="health bar" x="1" y="-0.789474" />
+                        <image-point name="dialog" x="0.5" y="-1.31579" />
                     </frame>
                 </animation>
                 <animation framecount="4" loop="1" name="fire" pingpong="0" repeatcount="1" repeatto="0" sid="239048890343146" speed="2">
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="-0.0212766" y="0.210526" />
+                        <image-point name="Imagepoint 1" x="0.489362" y="0.263158" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.789474" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.375" y="0.236842" />
+                        <image-point name="Imagepoint 1" x="0.763889" y="0.236842" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.789474" />
+                        <image-point name="dialog" x="0.5" y="-1.31579" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.443038" y="0.295455" />
+                        <image-point name="Imagepoint 1" x="0.772152" y="0.295455" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.795455" />
+                        <image-point name="dialog" x="0.506329" y="-1.31818" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.452381" y="0.363636" />
+                        <image-point name="Imagepoint 1" x="0.809524" y="0.363636" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.795455" />
+                        <image-point name="dialog" x="0.5" y="-1.31818" />
                     </frame>
                 </animation>
                 <animation framecount="4" loop="1" name="move" pingpong="0" repeatcount="1" repeatto="0" sid="557735121756687" speed="5">
@@ -793,22 +762,22 @@
                 </animation>
                 <animation framecount="4" loop="1" name="fire" pingpong="0" repeatcount="1" repeatto="0" sid="644707510408442" speed="2">
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="-0.0425532" y="0.236842" />
+                        <image-point name="Imagepoint 1" x="0.680851" y="0.236842" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.789474" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.375" y="0.263158" />
+                        <image-point name="Imagepoint 1" x="0.763889" y="0.263158" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.789474" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.455696" y="0.386364" />
+                        <image-point name="Imagepoint 1" x="0.772152" y="0.386364" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.795455" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.47619" y="0.409091" />
+                        <image-point name="Imagepoint 1" x="0.797619" y="0.386364" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.795455" />
                     </frame>
@@ -925,22 +894,22 @@
                 </animation>
                 <animation framecount="4" loop="1" name="fire" pingpong="0" repeatcount="1" repeatto="0" sid="715184662334723" speed="2">
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="-0.0425532" y="0.289474" />
+                        <image-point name="Imagepoint 1" x="0.638298" y="0.289474" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.789474" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.361111" y="0.236842" />
+                        <image-point name="Imagepoint 1" x="0.75" y="0.236842" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.789474" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.443038" y="0.295455" />
+                        <image-point name="Imagepoint 1" x="0.78481" y="0.295455" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.795455" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.452381" y="0.340909" />
+                        <image-point name="Imagepoint 1" x="0.797619" y="0.340909" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.795455" />
                     </frame>
@@ -972,22 +941,22 @@
                 </animation>
                 <animation framecount="4" loop="1" name="fire" pingpong="0" repeatcount="1" repeatto="0" sid="598867106925269" speed="5">
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="-0.0425532" y="0.210526" />
+                        <image-point name="Imagepoint 1" x="0.617021" y="0.210526" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.342105" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.402778" y="0.315789" />
+                        <image-point name="Imagepoint 1" x="0.763889" y="0.315789" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.342105" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.43038" y="0.318182" />
+                        <image-point name="Imagepoint 1" x="0.772152" y="0.318182" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.340909" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.47619" y="0.363636" />
+                        <image-point name="Imagepoint 1" x="0.797619" y="0.363636" />
                         <image-point name="Imagepoint 2" x="0" y="1" />
                         <image-point name="health bar" x="1" y="-0.340909" />
                     </frame>
@@ -1109,32 +1078,37 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212362282959653" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1">
                         <image-point name="health bar" x="1" y="-0.714286" />
+                        <image-point name="dialog" x="0.5" y="-1.19048" />
                     </frame>
                 </animation>
                 <animation framecount="5" loop="1" name="fire" pingpong="0" repeatcount="1" repeatto="0" sid="644343366745164" speed="10">
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="-0.0392157" y="0.390244" />
+                        <image-point name="Imagepoint 1" x="0.72549" y="0.390244" />
                         <image-point name="health bar" x="1" y="-0.731707" />
+                        <image-point name="dialog" x="0.509804" y="-1.21951" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.381579" y="0.414634" />
+                        <image-point name="Imagepoint 1" x="0.842105" y="0.414634" />
                         <image-point name="health bar" x="1" y="-0.731707" />
+                        <image-point name="dialog" x="0.5" y="-1.21951" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.478723" y="0.414634" />
+                        <image-point name="Imagepoint 1" x="0.851064" y="0.414634" />
                         <image-point name="health bar" x="1" y="-0.731707" />
+                        <image-point name="dialog" x="0.5" y="-1.21951" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.553571" y="0.390244" />
+                        <image-point name="Imagepoint 1" x="0.883929" y="0.390244" />
                         <image-point name="health bar" x="1" y="-0.731707" />
+                        <image-point name="dialog" x="0.5" y="-1.21951" />
                     </frame>
                     <frame duration="1" hotspotX="1" hotspotY="1">
-                        <image-point name="Imagepoint 1" x="0.561404" y="0.414634" />
+                        <image-point name="Imagepoint 1" x="0.885965" y="0.414634" />
                         <image-point name="health bar" x="1" y="-0.731707" />
+                        <image-point name="dialog" x="0.5" y="-1.21951" />
                     </frame>
                 </animation>
-                <animation framecount="2" loop="0" name="died" pingpong="0" repeatcount="1" repeatto="0" sid="416499256808032" speed="5">
-                    <frame duration="1" hotspotX="1" hotspotY="1" />
+                <animation framecount="1" loop="0" name="died" pingpong="0" repeatcount="1" repeatto="1" sid="416499256808032" speed="1">
                     <frame duration="1" hotspotX="0" hotspotY="1" />
                 </animation>
             </animation-folder>
@@ -1163,11 +1137,163 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="261199807528494">
+        <object-type name="finish" sid="261199807528494">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="611362322781771" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="podium" sid="173604670665332">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="18" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="9" sid="442022115187969" speed="10">
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.0574713" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.114943" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.172414" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.229885" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.285714" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.338983" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.393258" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.457143" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.517241" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.517241" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.517241" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.517241" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.517241" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.514286" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.508475" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.505618" />
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.514286" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="story1" sid="932556697052610">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884835339343652" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LAPTOP\Downloads\1.png" />
+                    <frame duration="1" hotspotX="0.503513" hotspotY="0.5" original-source="C:\Users\LAPTOP\Downloads\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LAPTOP\Downloads\3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LAPTOP\Downloads\4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LAPTOP\Downloads\5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LAPTOP\Downloads\6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LAPTOP\Downloads\7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backArrow" sid="827517984276216">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="356739288673038">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="921450525687629" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\ppti bca\Cawu 3\Project SE\Construct\back arrow.png">
+                        <image-point name="Imagepoint 1" x="1" y="0" />
+                        <collision-poly>
+                            <point x="0.35" y="0.35" />
+                            <point x="0.5" y="0.15" />
+                            <point x="0.78" y="0.22" />
+                            <point x="0.93" y="0.5" />
+                            <point x="0.79" y="0.79" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.25" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="story1Boss" sid="936824637974663">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="click" sid="481057384731187" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Anchor" sid="905543710171438">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380956274057008" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\LAPTOP\Downloads\Sebelum boss.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\LAPTOP\Downloads\Sebelum boss 2.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\LAPTOP\Downloads\Sebelum boss 3.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\LAPTOP\Downloads\Sebelum boss 4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="heroHassanudinDialog" sid="704819056829172">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="740222927871530" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\For our land.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\Let&apos;s Go.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="L1bossDialog" sid="130775623939347">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509541387698868" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\LAPTOP\Downloads\VOC.png">
+                        <collision-poly>
+                            <point x="0.111675" y="0.0468432" />
+                            <point x="0.485618" y="0.01222" />
+                            <point x="0.879865" y="0.0224033" />
+                            <point x="0.993232" y="0.496945" />
+                            <point x="0.717428" y="0.775967" />
+                            <point x="0.485618" y="0.792261" />
+                            <point x="0.247039" y="0.784114" />
+                            <point x="0.00846022" y="0.496945" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="storyWin" sid="257446656758555">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="537218709379930">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="896708368972551" speed="5">
+                    <frame duration="1" hotspotX="0.983607" hotspotY="0" original-source="G:\ppti bca\Cawu 3\Project SE\Construct\Menang.png">
+                        <collision-poly>
+                            <point x="0.119438" y="0.226667" />
+                            <point x="0.5" y="0.746667" />
+                            <point x="0.606557" y="0.746667" />
+                            <point x="0.220141" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.0433255" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="storyLose" sid="689700762515446">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="762022680352943" speed="5">
+                    <frame duration="1" hotspotX="1" hotspotY="0" original-source="G:\ppti bca\Cawu 3\Project SE\Construct\Kalah.png">
+                        <collision-poly>
+                            <point x="0.393443" y="0.746667" />
+                            <point x="0.5" y="0.746667" />
+                            <point x="0.882904" y="0.222222" />
+                            <point x="0.964871" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.697892" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
